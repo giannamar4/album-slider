@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.4rem;
+}
+
+#slider {
+  width: 45rem;
+  height: 25rem;
+  overflow: hidden;
+  margin: auto;
+  .slides {
+    display: block;
+    width: 375rem;
+    height: 25rem;
+    margin: 0;
+    padding: 0;
+  }
+  .slide {
+    float: left;
+    list-style-type: none;
+    width: 45rem;
+    height: 25rem;
+  }
+}
+
+// this css is so that if you dont have the images you can see the change
+
+.slide1 {
+  background-color: thistle;
+}
+.slide2 {
+  background-color: rgb(229, 213, 182);
+}
+.slide3 {
+  background-color: rgb(161, 187, 156);
+}
+.slide4 {
+  background-color: rgb(157, 173, 207);
+}
+.slide5 {
+  background-color: rgb(218, 156, 156);
+}
+.slide6 {
+  background-color: rgb(189, 189, 189);
+}
